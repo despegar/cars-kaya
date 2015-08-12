@@ -26,28 +26,30 @@ to install Redis go to:
       begin
         system "clear"
         Kaya::Support::Logo.show
+        if !branch_list.nil? && branch_list.length > 0
+          puts
+          puts "You have to choose one of the following branches to tell Kaya where to work with:"
+          # Print the options
+          branch_list.each_with_index do |branch_name, index|
+            puts "\t(#{index + 1}) - #{branch_name}"
+          end
+          print "\n\t     Your option:"; option = STDIN.gets
+
+          #Converted to Fixnum
+          option = option.gsub!("\n","").to_i
+
+        end until (1..branch_list.size).include? option
+
+
+        selected_branch_name = branch_list[option-1]
         puts "
-You have to choose one of the following branches to tell Kaya where to work with:"
-        # Print the options
-        branch_list.each_with_index do |branch_name, index|
-          puts "\t(#{index + 1}) - #{branch_name}"
-        end
-        print "\n\t     Your option:"; option = STDIN.gets
+        Lets work on '#{selected_branch_name}'
 
-        #Converted to Fixnum
-        option = option.gsub!("\n","").to_i
-
-      end until (1..branch_list.size).include? option
-
-
-      selected_branch_name = branch_list[option-1]
-      puts "
-      Lets work on '#{selected_branch_name}'
-
-      "
+        "
 
 
       Kaya::Support::Git.checkout_to(selected_branch_name)
+      end
     end
 
 # ==============================
