@@ -20,13 +20,14 @@ to install Redis go to:
 
     def choose_working_branch
 
+      system "clear"
+      Kaya::Support::Logo.show
+
       # Gets the list of branches
       branch_list=Kaya::Support::Git.branch_list
 
-      begin
-        system "clear"
-        Kaya::Support::Logo.show
-        if !branch_list.nil? && branch_list.length > 0
+      if !branch_list.nil? && branch_list.length > 0
+        begin
           puts
           puts "You have to choose one of the following branches to tell Kaya where to work with:"
           # Print the options
@@ -40,15 +41,12 @@ to install Redis go to:
 
         end until (1..branch_list.size).include? option
 
-
         selected_branch_name = branch_list[option-1]
         puts "
         Lets work on '#{selected_branch_name}'
 
         "
-
-
-      Kaya::Support::Git.checkout_to(selected_branch_name)
+        Kaya::Support::Git.checkout_to(selected_branch_name)
       end
     end
 
