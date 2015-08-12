@@ -33,11 +33,11 @@
                 % end
               </table>
               <div class="text-center">
-                <a href="/{{Kaya::Support::Configuration.hostname}}/kaya/suites/{{suite["name"]}}" class="btn btn-info">
+                <a href="{{Kaya::Support::Configuration.hostname}}/kaya/suites/{{suite["name"]}}" class="btn btn-info">
                   Go to suite
                 </a>
               % unless suite_name
-                <a href="/{{Kaya::Support::Configuration.hostname}}/kaya/results/suite/{{suite["name"]}}" class="btn btn-default">
+                <a href="{{Kaya::Support::Configuration.hostname}}/kaya/results/suite/{{suite["name"]}}" class="btn btn-default">
                   &nbsp;&nbsp;All results for this suite&nbsp;
                   <span class="label label-info label-as-badge">
                     {{results_list_size}}

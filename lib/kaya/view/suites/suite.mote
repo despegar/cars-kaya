@@ -39,13 +39,13 @@ color = Kaya::View.color(status)
   % end
     % if status == "running"
         <li class='list-group-item'>
-          <a href='#' class='btn btn-info' onclick="refreshAndOpen('/{{Kaya::Support::Configuration.hostname}}/kaya/results/log/{{last_result_for_ip["_id"]}}');">
+          <a href='#' class='btn btn-info' onclick="refreshAndOpen('{{Kaya::Support::Configuration.hostname}}/kaya/results/log/{{last_result_for_ip["_id"]}}');">
             See progress
           </a>
         </li>
     % else
         <li class='list-group-item'>
-          <form name='run' id='{{suite["name"]}}' method='get' action='/{{Kaya::Support::Configuration.hostname}}/kaya/suites/{{suite["name"]}}/run'>
+          <form name='run' id='{{suite["name"]}}' method='get' action='{{Kaya::Support::Configuration.hostname}}/kaya/suites/{{suite["name"]}}/run'>
 
       % unless suite["custom"].empty?
         % custom_template = Mote.parse(File.read("#{Kaya::View.path}/custom/params.mote"), self, [:custom_params])
@@ -74,7 +74,7 @@ color = Kaya::View.color(status)
 
   % if suite["last_result"] # There is at least one result
     % if suite["results"]["size"] > 0
-      <a href='/{{Kaya::Support::Configuration.hostname}}/kaya/results/suite/{{suite["name"].gsub(' ','%20')}}' class='btn btn-default pull-center'>All results({{suite["results"]["size"]}})</a>
+      <a href='{{Kaya::Support::Configuration.hostname}}/kaya/results/suite/{{suite["name"].gsub(' ','%20')}}' class='btn btn-default pull-center'>All results({{suite["results"]["size"]}})</a>
     % end
   % else
       &nbsp;

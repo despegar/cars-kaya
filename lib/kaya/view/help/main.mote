@@ -10,7 +10,7 @@ Here you will find information about Kaya. What it is and how it works.
       <tr>
         <th style="width:130px;"><h3>{{document["title"].capitalize.gsub("_"," ")}}<h3></th>
         <th><h3><small>{{document["body"].split("=").first.delete("\n")}}</small></h3></th>
-        <th><small><a class='btn btn-info' href='/{{Kaya::Support::Configuration.hostname}}/kaya/help/{{document["title"]}}' role='button' style="text-align:middle;">Read more &raquo;</a></small></th>
+        <th><small><a class='btn btn-info' href='{{Kaya::Support::Configuration.hostname}}/kaya/help/{{document["title"]}}' role='button' style="text-align:middle;">Read more &raquo;</a></small></th>
       </tr>
     % end
     </tbody>

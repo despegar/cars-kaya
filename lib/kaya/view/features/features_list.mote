@@ -3,7 +3,7 @@
   % features_files_list.each do |file_name|
     <tr>
       <td>
-        <a aria-hidden='true' href='/{{Kaya::Support::Configuration.hostname}}/kaya/features/file?path={{file_name.gsub("/"," ")}}'>{{file_name}}</a>
+        <a aria-hidden='true' href='{{Kaya::Support::Configuration.hostname}}/kaya/features/file?path={{file_name.gsub("/"," ")}}'>{{file_name}}</a>
       </td>
     </tr>
   % end

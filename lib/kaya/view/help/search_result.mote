@@ -8,7 +8,7 @@
   % help_search_resut.each do |result|
     <div class='panel panel-primary'>
       <div class='panel-heading'>
-        <a href='/{{Kaya::Support::Configuration.hostname}}/kaya/help/{{result["title"]}}' style='display: block;color: white !important;'>
+        <a href='{{Kaya::Support::Configuration.hostname}}/kaya/help/{{result["title"]}}' style='display: block;color: white !important;'>
           <h3 class='panel-title'>
             <span class='glyphicon glyphicon-file' aria-hidden='true'></span>
             {{result["title"].to_s.gsub('_', ' ').capitalize}}

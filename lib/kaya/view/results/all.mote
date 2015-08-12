@@ -54,7 +54,7 @@
 ?>
 
 <div class='well'>
-  <form name='search' method='get' action='/{{Kaya::Support::Configuration.hostname}}/kaya/results/all'>
+  <form name='search' method='get' action='{{Kaya::Support::Configuration.hostname}}/kaya/results/all'>
     <input type='text' name='keyword' title='' placeholder='Search' value='{{key}}' style='height: 34px; padding: 6px 12px; font-size: 14px; line-height: 1.42857143; color: #555; background-color: #fff; background-image: none; border: 1px solid #ccc; border-radius: 4px;' />
     <select id='status' name='status' style='height: 34px; padding: 6px 12px; font-size: 14px; line-height: 1.42857143; color: #555; background-color: #fff; background-image: none; border: 1px solid #ccc; border-radius: 4px;'>
       <option value='' {{'selected' if status.nil?}}>Any status</option>
@@ -64,7 +64,7 @@
     </select>
     <input type='submit' class='btn btn-success' value='Search'>&nbsp;&nbsp;
   % if key or status
-    <a class='btn btn-danger' href='/{{Kaya::Support::Configuration.hostname}}/kaya/results/all' role='button'>Clear</a>
+    <a class='btn btn-danger' href='{{Kaya::Support::Configuration.hostname}}/kaya/results/all' role='button'>Clear</a>
   % end
     <input type='checkbox' {{'checked="checked"' if mine=="on"}} name="mine" onclick="form.submit();" /><label>&nbsp;Only mine</label>
 

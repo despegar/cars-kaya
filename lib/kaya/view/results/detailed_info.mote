@@ -74,7 +74,7 @@
                 <small>Execution data</small>
               </th>
               <th>
-                <a href="#" class='label label-default' onclick="window.open('/{{Kaya::Support::Configuration.hostname}}/kaya/api/results/{{result["_id"]}}/data', '_blank', 'toolbar=no, scrollbars=yes, resizable=yes, top=300, left=300, width=800, height=600');">Click here to see</a>
+                <a href="#" class='label label-default' onclick="window.open('{{Kaya::Support::Configuration.hostname}}/kaya/api/results/{{result["_id"]}}/data', '_blank', 'toolbar=no, scrollbars=yes, resizable=yes, top=300, left=300, width=800, height=600');">Click here to see</a>
               </th>
             </tr>
 
@@ -85,23 +85,23 @@
         </table>
 
         % if result["status"] == 'finished'
-          <a onclick="window.open('/{{Kaya::Support::Configuration.hostname}}/kaya/results/report/{{result["_id"]}}', '_blank', 'toolbar=no, scrollbars=yes, resizable=yes, top=300, left=300, width=800, height=600');" class='btn btn-{{Kaya::View.color(result["show_as"])}}'>
+          <a onclick="window.open('{{Kaya::Support::Configuration.hostname}}/kaya/results/report/{{result["_id"]}}', '_blank', 'toolbar=no, scrollbars=yes, resizable=yes, top=300, left=300, width=800, height=600');" class='btn btn-{{Kaya::View.color(result["show_as"])}}'>
             See Report
           </a>
         % end
 
-        <a onclick="window.open('/{{Kaya::Support::Configuration.hostname}}/kaya/results/log/{{result["_id"]}}', '_blank', 'toolbar=no, scrollbars=yes, resizable=yes, top=300, left=300, width=800, height=600');" class='btn btn-info'>
+        <a onclick="window.open('{{Kaya::Support::Configuration.hostname}}/kaya/results/log/{{result["_id"]}}', '_blank', 'toolbar=no, scrollbars=yes, resizable=yes, top=300, left=300, width=800, height=600');" class='btn btn-info'>
           Console Log
         </a>
 
-        <a onclick="window.open('/{{Kaya::Support::Configuration.hostname}}/kaya/api/results/{{result["_id"]}}', '_blank', 'toolbar=no, scrollbars=yes, resizable=yes, top=300, left=300, width=800, height=600');" class='btn btn-default'>
+        <a onclick="window.open('{{Kaya::Support::Configuration.hostname}}/kaya/api/results/{{result["_id"]}}', '_blank', 'toolbar=no, scrollbars=yes, resizable=yes, top=300, left=300, width=800, height=600');" class='btn btn-default'>
           Raw
         </a>
 
         % unless result["status"] =~ /finished|stopped/
           % if result["ip"]==ip
 
-              <a href='/{{Kaya::Support::Configuration.hostname}}/kaya/results/{{result["_id"]}}/reset' class='btn btn-danger'>
+              <a href='{{Kaya::Support::Configuration.hostname}}/kaya/results/{{result["_id"]}}/reset' class='btn btn-danger'>
                 Stop execution
               </a>
 
