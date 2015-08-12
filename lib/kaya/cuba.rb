@@ -28,14 +28,14 @@ Cuba.define do
 # HELP
 #
 #
-      on "#{HOSTNAME}/kaya/help/:page" do |page|
+      on "kaya/help/:page" do |page|
         query_string = Kaya::Support::QueryString.new req
         template = Mote.parse(File.read("#{Kaya::View.path}/help.mote"),self, [:page, :query_string])
         res.write template.call(page:page, query_string:query_string.s)
       end
 
-      on "#{HOSTNAME}/kaya/help" do
-        res.redirect "/#{HOSTNAME}/kaya/help/main"
+      on "kaya/help" do
+        res.redirect "#{HOSTNAME}/kaya/help/main"
       end
 
 
@@ -44,18 +44,18 @@ Cuba.define do
 #
 #
 #
-      on "#{HOSTNAME}/kaya/results/log/:result_id" do |result_id|
+      on "kaya/results/log/:result_id" do |result_id|
         result = Kaya::Results::Result.get(result_id)
-        res.redirect "/#{HOSTNAME}/kaya/404/There%20is%20no%20result%20for%20id=#{result_id}" if result.nil?
+        res.redirect "#{HOSTNAME}/kaya/404/There%20is%20no%20result%20for%20id=#{result_id}" if result.nil?
         result.mark_as_saw! if (result.finished? or result.stopped?)
         template = Mote.parse(File.read("#{Kaya::View.path}/results/console.mote"),self, [:result, :ip])
         res.write template.call(result:result, ip:request.ip)
       end
 
 
-      on "#{HOSTNAME}/kaya/results/report/:result_id" do |result_id|
+      on "kaya/results/report/:result_id" do |result_id|
         result = Kaya::Results::Result.get(result_id)
-        res.redirect "/#{HOSTNAME}/kaya/404/There%20is%20no%20result%20for%20id=#{result_id}" if result.nil?
+        res.redirect "#{HOSTNAME}/kaya/404/There%20is%20no%20result%20for%20id=#{result_id}" if result.nil?
         result.mark_as_saw! if (result.finished? or result.stopped?)
         if result.finished? and !result.stopped? and result.html_report.size > 0
           template = Mote.parse(File.read("#{Kaya::View.path}/results/report.mote"),self, [:result])
@@ -65,56 +65,56 @@ Cuba.define do
         end
       end
 
-      on "#{HOSTNAME}/kaya/results/:result_id/reset" do |result_id|
+      on "kaya/results/:result_id/reset" do |result_id|
         result = Kaya::API::Execution.reset(result_id, request.ip)
-        res.redirect "/#{HOSTNAME}/kaya/results?msg=#{result['message']}"
+        res.redirect "#{HOSTNAME}/kaya/results?msg=#{result['message']}"
       end
 
-      on "#{HOSTNAME}/kaya/results/suite/:suite_name" do |suite_name|
+      on "kaya/results/suite/:suite_name" do |suite_name|
         query_string = Kaya::Support::QueryString.new req
         suite_name.gsub!("%20"," ")
         template = Mote.parse(File.read("#{Kaya::View.path}/body.mote"),self, [:section, :query_string, :suite_name, :log_name, :ip])
         res.write template.call(section:"Results", query_string:query_string, suite_name:suite_name, log_name:nil, ip:request.ip)
       end
 
-      on "#{HOSTNAME}/kaya/results/all" do
+      on "kaya/results/all" do
         query_string = Kaya::Support::QueryString.new req
         template = Mote.parse(File.read("#{Kaya::View.path}/body.mote"),self, [:section, :query_string, :suite_name, :log_name, :ip])
         res.write template.call(section:"All Results", query_string:query_string, suite_name:nil, log_name:nil, ip:request.ip)
       end
 
-      on "#{HOSTNAME}/kaya/results" do
+      on "kaya/results" do
         query_string = Kaya::Support::QueryString.new req
         template = Mote.parse(File.read("#{Kaya::View.path}/body.mote"),self, [:section, :query_string, :suite_name, :log_name, :ip])
         res.write template.call(section:"Results", query_string:query_string, suite_name:nil, log_name:nil, ip:request.ip)
       end
 
-      on "#{HOSTNAME}/kaya/suites/:suite/run" do |suite_name|
+      on "kaya/suites/:suite/run" do |suite_name|
         query_string = Kaya::Support::QueryString.new req
         result = Kaya::API::Execution.start suite_name, query_string.values, request.ip
         suite_name.gsub!("%20"," ")
-        path = "/#{HOSTNAME}/kaya/suites"
+        path = "#{HOSTNAME}/kaya/suites"
         path += "?msg=#{result['message']}. " if result["message"]
         path += "Execution id=#{result["execution_id"]}" if result["execution_id"]
         res.status= result["status"]
         res.redirect path
       end
 
-      on "#{HOSTNAME}/kaya/suites/:suite_name" do |suite_name|
+      on "kaya/suites/:suite_name" do |suite_name|
         query_string = Kaya::Support::QueryString.new req
         suite_name.gsub!("%20"," ")
         template = Mote.parse(File.read("#{Kaya::View.path}/body.mote"),self, [:section, :query_string, :suite_name, :log_name, :ip])
         res.write template.call(section:"Test Suites", query_string:query_string, suite_name:suite_name, log_name:nil, ip:request.ip)
       end
 
-      on "#{HOSTNAME}/kaya/suites" do
+      on "kaya/suites" do
         query_string = Kaya::Support::QueryString.new req
         Kaya::Suites.update_suites
         template = Mote.parse(File.read("#{Kaya::View.path}/body.mote"),self, [:section, :query_string, :suite_name, :log_name, :ip])
         res.write template.call(section:"Test Suites", query_string:query_string, suite_name:nil, log_name:nil, ip:request.ip)
       end
 
-      on "#{HOSTNAME}/kaya/logs/:log_name" do |log_name|
+      on "kaya/logs/:log_name" do |log_name|
         query_string = Kaya::Support::QueryString.new req
         template = Mote.parse(File.read("#{Kaya::View.path}/body.mote"),self, [:section, :query_string, :suite_name, :log_name, :ip])
         res.write template.call(section:"Logs", query_string:query_string, suite_name:nil, log_name:log_name, ip:request.ip)
@@ -125,7 +125,7 @@ Cuba.define do
 #
 #
 
-      on "#{HOSTNAME}/kaya/screenshot/:file_name" do |file_name|
+      on "kaya/screenshot/:file_name" do |file_name|
         template = Mote.parse(File.read("#{Kaya::View.path}/screenshot.mote"),self, [:file_name])
         res.write template.call(file_name:file_name)
       end
@@ -134,7 +134,7 @@ Cuba.define do
 # FEATURE SHOW
 #
 #
-      on "#{HOSTNAME}/kaya/features/file" do
+      on "kaya/features/file" do
         template = Mote.parse(File.read("#{Kaya::View.path}/features.mote"),self, [:query_string])
         res.write template.call(query_string:Kaya::Support::QueryString.new(req))
       end
@@ -143,7 +143,7 @@ Cuba.define do
 # FEATURES / LIST
 #
 #
-      on "#{HOSTNAME}/kaya/features" do
+      on "kaya/features" do
         template = Mote.parse(File.read("#{Kaya::View.path}/features.mote"),self, [:query_string])
         res.write template.call(query_string:Kaya::Support::QueryString.new(req))
       end
@@ -154,81 +154,81 @@ Cuba.define do
 #
 #
 #
-      on "#{HOSTNAME}/kaya/api/version" do
+      on "kaya/api/version" do
         output = { "version" => Kaya::VERSION}
         res.write output.to_json
       end
 
-      on "#{HOSTNAME}/kaya/api/results/:id/data" do |result_id|
+      on "kaya/api/results/:id/data" do |result_id|
         output = Kaya::API::Result.data(result_id)
         res.write output.to_json
       end
 
-      on "#{HOSTNAME}/kaya/api/results/:id/status" do |result_id|
+      on "kaya/api/results/:id/status" do |result_id|
         output = Kaya::API::Result.status(result_id)
         res.write output.to_json
       end
 
-      on "#{HOSTNAME}/kaya/api/results/:id" do |result_id|
+      on "kaya/api/results/:id" do |result_id|
         res.write(Kaya::API::Result.info(result_id).to_json)
       end
 
-      on "#{HOSTNAME}/kaya/api/results/:id/reset" do |result_id|
+      on "kaya/api/results/:id/reset" do |result_id|
         result = Kaya::API::Execution.reset(result_id, request.ip)
         res.write result.to_json
       end
 
-      on "#{HOSTNAME}/kaya/api/suites/:suite/run" do |suite_name|
+      on "kaya/api/suites/:suite/run" do |suite_name|
         query_string = Kaya::Support::QueryString.new req
         result = Kaya::API::Execution.start suite_name, query_string.values, request.ip
         res.write result.to_json
       end
 
-      on "#{HOSTNAME}/kaya/api/suites/:id/status" do |suite_id|
+      on "kaya/api/suites/:id/status" do |suite_id|
         output = Kaya::API::Suite.status(suite_id.to_i)
         res.write output.to_json
       end
 
-      on "#{HOSTNAME}/kaya/api/suites/running" do
+      on "kaya/api/suites/running" do
         output = Kaya::API::Suites.list({running:true})
         res.write output.to_json
       end
 
-      on "#{HOSTNAME}/kaya/api/suites/active" do
+      on "kaya/api/suites/active" do
         output = Kaya::API::Suites.list({"active" => true})
         res.write output.to_json
       end
 
-      on "#{HOSTNAME}/kaya/api/suites/unactive" do
+      on "kaya/api/suites/unactive" do
         output = Kaya::API::Suites.list({"active" => false})
         res.write output.to_json
       end
 
-      on "#{HOSTNAME}/kaya/api/suites/:id" do |suite_id|
+      on "kaya/api/suites/:id" do |suite_id|
         output = Kaya::API::Suite.info(suite_id)
         res.write output.to_json
       end
 
-      on "#{HOSTNAME}/kaya/api/suites" do
+      on "kaya/api/suites" do
         (Kaya::Support::Git.reset_hard and Kaya::Support::Git.pull) if Kaya::Support::Configuration.use_git?
         Kaya::Suites.update_suites
         output = Kaya::API::Suites.list({active:true, ip:request.ip})
         res.write output.to_json
       end
 
-      on "#{HOSTNAME}/kaya/api/results" do
+      on "kaya/api/results" do
         output = Kaya::API::Results.show()
         res.write output.to_json
       end
 
-      on "#{HOSTNAME}/kaya/api/error" do
+      on "kaya/api/error" do
         query_string = Kaya::Support::QueryString.new req
         output = Kaya::API::Error.show(query_string)
         res.write output.to_json
       end
 
-      on "#{HOSTNAME}/kaya/api" do
-        response = {"message" => "Please, refer to /#{HOSTNAME}/kaya/help/api for more information"}
+      on "kaya/api" do
+        response = {"message" => "Please, refer to #{HOSTNAME}/kaya/help/api for more information"}
         res.write response.to_json
       end
 
@@ -238,29 +238,29 @@ Cuba.define do
 # CLEAN
 #
 #
-      on "#{HOSTNAME}/kaya/clean" do
+      on "kaya/clean" do
         Kaya::Support::Clean.start
-        res.redirect "/#{HOSTNAME}/kaya/suites?msg=Suites and results cleanned"
+        res.redirect "#{HOSTNAME}/kaya/suites?msg=Suites and results cleanned"
       end
 
 # ========================================================================
 # REDIRECTS
 #
-      on "#{HOSTNAME}/kaya/help" do
-        res.redirect "/#{HOSTNAME}/kaya/help/main"
+      on "kaya/help" do
+        res.redirect "#{HOSTNAME}/kaya/help/main"
       end
 
-      on "#{HOSTNAME}/kaya/404" do
+      on "kaya/404" do
         template = Mote.parse(File.read("#{Kaya::View.path}/not_found.mote"),self, [])
         res.write template.call()
       end
 
-      on "#{HOSTNAME}/kaya/:any" do
-          res.redirect("/#{HOSTNAME}/kaya/suites")
+      on "kaya/:any" do
+          res.redirect("#{HOSTNAME}/kaya/suites")
       end
 
-      on "#{HOSTNAME}/kaya" do
-        res.redirect "/#{HOSTNAME}/kaya/suites"
+      on "kaya" do
+        res.redirect "#{HOSTNAME}/kaya/suites"
       end
 
       on "favicon" do
@@ -268,11 +268,11 @@ Cuba.define do
       end
 
       on "#{HOSTNAME}" do
-        res.redirect "/#{HOSTNAME}/kaya/suites"
+        res.redirect "#{HOSTNAME}/kaya/suites"
       end
 
       on root do
-        res.redirect "/#{HOSTNAME}/kaya/suites"
+        res.redirect "#{HOSTNAME}/kaya/suites"
       end
     end
   rescue => e

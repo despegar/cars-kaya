@@ -4,13 +4,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'kaya/version'
 
 Gem::Specification.new do |spec|
-  spec.name                   = "kaya"
+  spec.name                   = "cars-kaya"
   spec.version                = Kaya::VERSION
-  spec.authors                = ["Roman Rodriguez"]
-  spec.email                  = ["roman.g.rodriguez@gmail.com"]
+  spec.authors                = ["Roman Rodriguez", "Juan Pablo Bochard"]
+  spec.email                  = ["jbochard@despegar.com"]
   spec.summary                = %q{Exposes Cucumber suites in a web service to make them run}
   spec.description            = %q{You can run your cucumber suites easily, save and see the execution results}
-  spec.homepage               = "https://github.com/romgrod/kaya"
+  spec.homepage               = "https://github.com/despegar/cars-kaya"
   spec.license                = "MIT"
   spec.required_ruby_version  = ">= 2.0.0"
 

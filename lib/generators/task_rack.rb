@@ -8,21 +8,6 @@ class TaskRack < Thor::Group
 # Evaluates prerequisites
 #
 #
-
-    def check_for_mongo_existance
-      begin
-        mongo = Kaya::Support::Console.execute "mongo --version"
-        mongo_version = mongo.scan(/(\d+\.\d+\.\d+)/).flatten.first
-      rescue
-        raise "
-MONGODB NOT INSTALLED. INSTALL MONGODB BEFORE USING KAYA
-to install MongoDB go to: http://docs.mongodb.org/manual/installation/
-" if mongo_version.nil?
-        end
-        puts "MongoDB version installed => #{mongo_version} => OK"
-    end
-
-
     def check_redis_existance
       redis = Kaya::Support::Console.execute "redis-server -v"
       raise "

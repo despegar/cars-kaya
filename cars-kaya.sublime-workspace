@@ -1,0 +1,1218 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"read",
+				"read_mocks_files"
+			],
+			[
+				"ign",
+				"ignoreCase"
+			],
+			[
+				"ig",
+				"ignoreCase"
+			],
+			[
+				"sear",
+				"search_value"
+			],
+			[
+				"File",
+				"FileUtilities"
+			],
+			[
+				"new",
+				"new_field"
+			],
+			[
+				"sh",
+				"showDlg"
+			],
+			[
+				"edi",
+				"edit_ignore_data"
+			],
+			[
+				"add",
+				"addKeyValue"
+			],
+			[
+				"erro",
+				"errorFn"
+			],
+			[
+				"edited",
+				"editedFields"
+			],
+			[
+				"ch",
+				"childNodes"
+			],
+			[
+				"mock",
+				"mocker"
+			],
+			[
+				"json",
+				"json_body"
+			],
+			[
+				"dele",
+				"deleteKey"
+			],
+			[
+				"show",
+				"showEditDlg"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"ang",
+				"angularjs"
+			],
+			[
+				"to",
+				"to_json"
+			],
+			[
+				"files",
+				"filesDelete"
+			],
+			[
+				"key",
+				"keys"
+			],
+			[
+				"to_",
+				"to_s"
+			],
+			[
+				"body",
+				"body_response"
+			],
+			[
+				"file",
+				"filesService"
+			],
+			[
+				"t",
+				"type	Attr"
+			],
+			[
+				"flie",
+				"filesService"
+			],
+			[
+				"head",
+				"header	Tag"
+			],
+			[
+				"req",
+				"require_relative"
+			],
+			[
+				"context",
+				"context_web"
+			],
+			[
+				"pr",
+				"proxy"
+			],
+			[
+				"mat",
+				"matchKey"
+			],
+			[
+				"Proxy",
+				"ProxyRestClient"
+			],
+			[
+				"j",
+				"json_headers"
+			],
+			[
+				"ma",
+				"mask"
+			],
+			[
+				"h",
+				"headers"
+			],
+			[
+				"res",
+				"response"
+			],
+			[
+				"bo",
+				"body_response"
+			],
+			[
+				"save",
+				"save_mock"
+			],
+			[
+				"url",
+				"url_key"
+			],
+			[
+				"bod",
+				"body_request"
+			],
+			[
+				"proxy",
+				"proxyURI"
+			],
+			[
+				"ke",
+				"keys"
+			],
+			[
+				"reser",
+				"reservation_data"
+			],
+			[
+				"par",
+				"parameter"
+			],
+			[
+				"get",
+				"getHeader"
+			],
+			[
+				"hash",
+				"hash_to_sym_first_level"
+			],
+			[
+				"http",
+				"httpResponse"
+			],
+			[
+				"htt",
+				"httpResponse"
+			],
+			[
+				"buff",
+				"buffer_response"
+			],
+			[
+				"ht",
+				"httpRequest"
+			],
+			[
+				"X-m",
+				"X-MOCK-PROXY"
+			],
+			[
+				"X",
+				"X-MOCK-URL"
+			],
+			[
+				"pro",
+				"proxyURL"
+			],
+			[
+				"reservation_",
+				"reservation_code"
+			],
+			[
+				"text",
+				"textfile"
+			],
+			[
+				"rese",
+				"reservation_code"
+			],
+			[
+				"stat",
+				"statusCode"
+			],
+			[
+				"sock",
+				"socket_list"
+			],
+			[
+				"soc",
+				"socket_list"
+			],
+			[
+				"retu",
+				"return_array"
+			],
+			[
+				"pre",
+				"pretty_json"
+			],
+			[
+				"b",
+				"buffer"
+			],
+			[
+				"sp",
+				"strip"
+			],
+			[
+				"emai",
+				"email"
+			],
+			[
+				"mod",
+				"modRequest"
+			],
+			[
+				"va",
+				"variables"
+			],
+			[
+				"ap",
+				"apply_variables0"
+			],
+			[
+				"mo",
+				"modRequest"
+			],
+			[
+				"up",
+				"upcase"
+			],
+			[
+				"vari",
+				"variableName"
+			],
+			[
+				"varia",
+				"variableName"
+			],
+			[
+				"var",
+				"variableName"
+			],
+			[
+				"ru",
+				"ruleEngine"
+			],
+			[
+				"cond",
+				"condition"
+			],
+			[
+				"co",
+				"condition"
+			],
+			[
+				"a",
+				"as	assert(..)"
+			],
+			[
+				"header",
+				"Headers"
+			],
+			[
+				"reservat",
+				"reservation_request"
+			],
+			[
+				"reserva",
+				"reservation"
+			],
+			[
+				"JAVA",
+				"JAVA_VERSION"
+			],
+			[
+				"set",
+				"setJava7"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"N",
+				"NEW_VERSION"
+			],
+			[
+				"la",
+				"LAST_VERSION"
+			],
+			[
+				"release",
+				"releaseName"
+			],
+			[
+				"PO",
+				"POMS"
+			],
+			[
+				"re",
+				"RELEASE_VERSION"
+			],
+			[
+				"DE",
+				"DEVELOP"
+			],
+			[
+				"PR",
+				"PROJ_VERSION"
+			],
+			[
+				"CL",
+				"CLUSTER_BETA"
+			],
+			[
+				"P",
+				"POM"
+			],
+			[
+				"PRoj",
+				"PROJ_VERSION"
+			],
+			[
+				"cha",
+				"changePomVersion"
+			],
+			[
+				"pom",
+				"pomProject"
+			],
+			[
+				"RE",
+				"READ_VERSION"
+			],
+			[
+				"buildv",
+				"buildVersionBeta"
+			],
+			[
+				"fi",
+				"fi"
+			],
+			[
+				"BETA",
+				"BETA_VERSION"
+			],
+			[
+				"com",
+				"compVersions"
+			],
+			[
+				"proj",
+				"PROJ_VERSION"
+			],
+			[
+				"prod",
+				"PROD_VERSION"
+			],
+			[
+				"B",
+				"BETA_VERSION"
+			],
+			[
+				"PROD",
+				"PROD_VERSION"
+			],
+			[
+				"Deployed",
+				"DEPLOYED_VERSION"
+			],
+			[
+				"IN",
+				"INSTALLED_VERSION"
+			],
+			[
+				"IF",
+				"IFSBak"
+			],
+			[
+				"PRO",
+				"PROJ_VERSION"
+			],
+			[
+				"incre",
+				"increment_version"
+			],
+			[
+				"Pro",
+				"PROJ_VERSION"
+			],
+			[
+				"GR",
+				"GROUP_BETA"
+			],
+			[
+				"CLO",
+				"CLOUDIA_HOST_BETA"
+			],
+			[
+				"cars",
+				"cars-beta"
+			],
+			[
+				"dep",
+				"deployedVersion"
+			],
+			[
+				"branch",
+				"branchName"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/public/cars-proxy-test/js/app.js",
+			"settings":
+			{
+				"buffer_size": 10537,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/routes/service.rb",
+			"settings":
+			{
+				"buffer_size": 2280,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/views/index.erb",
+			"settings":
+			{
+				"buffer_size": 3616,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/app.rb",
+			"settings":
+			{
+				"buffer_size": 647,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/resources/environment.json",
+			"settings":
+			{
+				"buffer_size": 125,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/public/cars-proxy-test/tabs/ignore-tabs.html",
+			"settings":
+			{
+				"buffer_size": 3213,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/public/cars-proxy-test/tabs/mocks-tabs.html",
+			"settings":
+			{
+				"buffer_size": 1721,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 107.0,
+		"last_filter": "Package Control: in",
+		"selected_items":
+		[
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control:",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Set Syntax: SQL"
+			]
+		],
+		"width": 458.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib2,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')",
+			"subl text 2 https://sublime.wbond.net/installation#st2",
+			"sublime text 2 https://sublime.wbond.net/installation#st2",
+			"?",
+			"help",
+			"run",
+			"ls"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/jbochard/Documents/github-despegar/kaya/cars-kaya"
+	],
+	"file_history":
+	[
+		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/routes/web.rb",
+		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/routes/proxy.rb",
+		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/routes/health-check.rb",
+		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/resources/mocker_ignore.json",
+		"/Library/LaunchDaemons/com.mysql.mysql.plist",
+		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/public/cars-proxy-test/styles/styles.css",
+		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/public/js/app.js",
+		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/app.rb",
+		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/public/tabs/mocks-tabs.html",
+		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/resources/environment.json",
+		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/lib/mocker.rb",
+		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/routes/service.rb",
+		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/routes/init.rb",
+		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/test.rb",
+		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/.gitignore",
+		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/public/js/environment.js",
+		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/lib/file_utilities.rb",
+		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/public/tabs/ignore-tabs.html",
+		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/lib/proxy_rest_client.rb",
+		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/public/styles/styles.css",
+		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/public/js/angularjs-filters.js",
+		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/views/tabs/mocks-tabs.erb",
+		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/views/tabs/ignore-tabs.erb",
+		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/resources/mocker_ignore_backup.json",
+		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/public/js/ui-bootstrap-0.13.0.js",
+		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/public/js/ui-bootstrap-0.13.1.min.js",
+		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/public/js/selection-model.min.js",
+		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/lib/exceptions.rb",
+		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/resources/mocks/PREPAGA_OK-CHASQUI-POST-_cars_chasqui_rest_actions_generate-9d6d4a5179307af2b827349df589d79c.json",
+		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/resources/mocks/PREPAGA_OK-CHASQUI-POST-cars_chasqui_rest_actions_generate-b5b16cdf72ac72451a3bc03a73b0f598.json",
+		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/resources/mocks/PREPAGA_OK-GET-fenix_car_dispatcher_json_cat_getOraAccountReceivableRequestTOs_1437753239-d41d8cd98f00b204e9800998ecf8427e.json",
+		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/cars-proxy.gemspec",
+		"/private/etc/apache2/other/fenix.conf",
+		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/server.rb",
+		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/views/public/styles/styles.css",
+		"/Users/jbochard/.rvm/gems/ruby-2.2.2/gems/rest-client-1.8.0/lib/restclient/request.rb",
+		"/Users/jbochard/.rvm/gems/ruby-2.2.2/gems/rest-client-1.8.0/lib/restclient.rb",
+		"/Users/jbochard/.rvm/gems/ruby-2.2.2/gems/rest-client-1.8.0/lib/restclient/resource.rb",
+		"/Users/jbochard/.rvm/gems/ruby-2.2.2/gems/rest-client-1.8.0/lib/restclient/abstract_response.rb",
+		"/Users/jbochard/.rvm/gems/ruby-2.2.2/gems/rest-client-1.8.0/lib/restclient/exceptions.rb",
+		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/resources/ssl_certs.json",
+		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/features/support/clases/file_utilities.rb",
+		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/features/support/clases/dvault.rb",
+		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/mocker/proxy_rest_client.rb",
+		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/features/resources/ssl_certs.json",
+		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/mocker/server.rb",
+		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/features/venta_PREPAGA_OK.feature",
+		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/Gemfile",
+		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/features/support/env.rb",
+		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/features/support/clases/reservation.rb",
+		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/features/step_definitions/venta.rb",
+		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/features/resources/reservations/request_PREPAGA_OK.json",
+		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/features/resources/reservations/response_PREPAGA_OK.json",
+		"/Users/jbochard/Downloads/RSI-Trend.mq4",
+		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/cars-proxy.sublime-project",
+		"/Users/jbochard/.profile",
+		"/Users/jbochard/Downloads/Calculadora.csv",
+		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/features/venta_PRECOBRO_OK.feature",
+		"/Users/jbochard/Documents/github-despegar/docker/cars-docker/status",
+		"/Users/jbochard/Documents/github-despegar/docker/cars-docker/index.html",
+		"/Users/jbochard/Documents/github-despegar/docker/cars-docker/.gitignore",
+		"/Users/jbochard/Documents/github-despegar/cars-proxy/cars-proxy.gemspec",
+		"/Users/jbochard/Documents/github-despegar/cars-proxy/cars-proxy.sublime-workspace",
+		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/features/support/clases/cat.rb",
+		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/mocker/mocker.rb",
+		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/mocker/server.rb",
+		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/features/support/clases/reservation.rb",
+		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/features/venta_RISK_EVAL_OK.feature",
+		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/features/support/env.rb",
+		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/Gemfile",
+		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/mocker/file_utilities.rb",
+		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/features/resources/reservations/request_RISK_EVAL_OK.json",
+		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/features/resources/mocker_ignore.json",
+		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/features/venta_RISK_REJECT.feature",
+		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/features/resources/mocker/RISK_REJECT_RISK_risk_api_evaluation_524fb81db506d1a328dc44ca197243ea.json",
+		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/features/resources/reservations/response_PREPAGA_OK.json",
+		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/features/venta_PREPAGA_OK.feature",
+		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/features/resources/reservation_data/info_PREPAGA_OK.json",
+		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/test.rb",
+		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/features/resources/reservation_data/test.json",
+		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/features/resources/reservations/request_RISK_REJECT.json",
+		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/features/resources/mocker/PREPAGA_OK_OAS_oas-services-beta_json_accounting_oracle_sendPaymentOrder_14e4aa236e73e4b326b83792e7062550.json",
+		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/features/resources/reservations/request_PREPAGA_OK.json",
+		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/features/venta_prepaga.feature",
+		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/features/resources/mocker/PREPAGA_OK_CONTRACTS_cars-contracts_service_getCarRentalCompanies_d41d8cd98f00b204e9800998ecf8427e.json",
+		"/Users/jbochard/.rvm/gems/ruby-2.2.2/gems/sinatra-1.4.6/lib/sinatra/base.rb",
+		"/Users/jbochard/.rvm/gems/ruby-2.2.2/gems/rack-1.6.1/lib/rack.rb",
+		"/Users/jbochard/.rvm/gems/ruby-2.2.2/gems/rack-1.6.1/lib/rack/request.rb",
+		"/Users/jbochard/.rvm/gems/ruby-2.2.2/gems/rack-1.6.1/lib/rack/builder.rb",
+		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/features/resources/mocker/PREPAGA_OK_OSS_oss-services-sandbox_json_collect_collectService_eaed23e0de1b0a8f38d6c0077d9f92e6.json",
+		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/features/resources/mocker/PREPAGA_OK_OSS_oss-services-sandbox_json_collect_collectService_c99a276e1ea56308344d54239b71f72b.json",
+		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/features/step_definitions/venta.rb",
+		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/mocker/mock_server.rb",
+		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/mocker/json_utilities.rb",
+		"/Users/jbochard/Library/Application Support/Sublime Text 3/Packages/Compare Side-By-Side/SBSCompare.sublime-settings",
+		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/.gitignore",
+		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/features/resources/mocker/PREPAGA_OK_DRULES_beta-drules-core_json_evaluateFirst.json",
+		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/features/resources/reservations/request_1434047570.json",
+		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/features/resources/mocker/PREPAGA_OK_CHASQUI_cars-chasqui_rest_notifications.json",
+		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/features/resources/reservations/request_1434024208.txt",
+		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/mocker/main.rb",
+		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/mocker/rest_client.rb",
+		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/features/resources/mocker/PREPAGA_OK_OSS_oss-services-sandbox_json_collect_collectService.json",
+		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/features/resources/mocker/PREPAGA_OK_DVAULT_dvault-service_service_tokenization_invalidate_cc_a0ec644f-0444-410e-baa3-f597742d0712.json",
+		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/features/resources/mocker/PREPAGA_OK_OAS_oas-services-beta_json_accounting_accountingService_response.txt",
+		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/output/PREPAGA_OK_OAS_oas-services-beta_json_accounting_accountingService_response.txt",
+		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/features/support/clases/resources.rb",
+		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/features/support/clases/mocker.rb",
+		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/features/venta_prepaga_hibrida.feature",
+		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/features/venta_pad.feature",
+		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/features/venta_precobro.feature",
+		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/features/resources/info_precobro.json",
+		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/features/resources/info_hibrida.json",
+		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/output/1433447529__oas-services-beta_json_accounting_accountingService_request.txt",
+		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/output/1433446666__dvault-service_service_tokenization_mask_cc_c5433b9f-270f-457f-8a34-4e78bc75af47_request.txt",
+		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/output/0__oas-services-beta_json_accounting_oracle_sendPaymentOrder_request.txt",
+		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/mocker/mock_server_old.rb",
+		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/config/cucumber.yml",
+		"/Users/jbochard/Library/Application Support/Sublime Text 3/Packages/Ruby Debugger/Default (OSX).sublime-keymap",
+		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/cars-fenix-integration-test.gemspec",
+		"/Users/jbochard/Library/Application Support/Sublime Text 3/Packages/Ruby Debugger/Ruby Debugger.sublime-settings",
+		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/output/1433352994__dvault-service_service_tokenization_invalidate_cc_8abbe64d-3663-4b11-b02f-98f4ee0c9d7b_request.txt",
+		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/features/resources/info_prepaga.json",
+		"/Users/jbochard/Documents/cars-fenix/automatizacion/qa-cars-uy/local/support/clases/reservation.rb",
+		"/Users/jbochard/Documents/cars-fenix/automatizacion/qa-cars-uy/local/resources/reserva_prepago.json",
+		"/Users/jbochard/Documents/cars-fenix/automatizacion/qa-cars-uy/local/venta_prepaga.feature",
+		"/Users/jbochard/Documents/cars-fenix/automatizacion/qa-cars-uy/local/venta_prepaga_hibrida.feature",
+		"/Users/jbochard/Documents/cars-fenix/automatizacion/qa-cars-uy/local/venta_pad.feature"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/jbochard/Documents/cars-fenix/automatizacion/qa-cars-uy",
+			"",
+			"/Users/jbochard/Documents/cars-fenix/fenix-deploy",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"'http://' + ",
+			"/cars-proxy-test",
+			"<tr>",
+			"<div>",
+			"td",
+			"length",
+			"registro",
+			"local",
+			"localhost:9290",
+			"inputForm",
+			"refreshIgnore",
+			"table",
+			"CONTRAC",
+			"modi",
+			"@@context",
+			"2000",
+			"rsi.",
+			"cars-fenix/automatizacion/cars-fenix-integration-test",
+			"collection",
+			"-17",
+			"2015-06-17T13:00:04Z",
+			"mock",
+			"oss",
+			"oss_",
+			"jbochard",
+			"\n        ",
+			"env",
+			"550a11d8-728f-4a27-8777-05aef0d25650",
+			":",
+			"httpResonse",
+			":(\\w+)",
+			"=>",
+			"getHeaderParam",
+			"=>",
+			"1",
+			"\n          ",
+			"mock[\"response\"]",
+			"response",
+			"res",
+			"echo_server",
+			"=>",
+			"2015-06-02T19:",
+			"2015-06-02T19:41:40Z",
+			"tp",
+			"1433267611",
+			"name",
+			"email",
+			"]",
+			"[",
+			"]",
+			"[",
+			"nMock",
+			"\\",
+			"print",
+			"puts",
+			"\n}",
+			"\\",
+			"n",
+			"@",
+			"dvault",
+			"\",\n",
+			" \"",
+			"=>",
+			"@request",
+			"json_utilities",
+			"data",
+			";",
+			"private String ",
+			"str_file",
+			"postgres;",
+			"PressCtrlH",
+			"super+;",
+			"validateReservation",
+			"env",
+			"change",
+			"\\tat",
+			"buildVersionProd",
+			"deployedVersion",
+			"\\tat",
+			"\\s\\s+",
+			"\\s+",
+			"\"name\" : \"(.*)\"",
+			"\\}",
+			"\\{",
+			"{",
+			"/\\*.*",
+			"\\tat",
+			"\\t",
+			"\"COP\"",
+			"\"USD\"",
+			"USD",
+			"\"AR\"",
+			"\"ARS\"",
+			"jira.despegar.it",
+			"jira.despegar",
+			"jira",
+			"rewrite",
+			"curl",
+			"deploy",
+			"git_merge_branch",
+			"fenix-car",
+			"JENKINS_HOTFIX_JOB",
+			"JENKINS_FEATURE_JOB",
+			",",
+			"JENKINS_JOB",
+			"%"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"",
+			"<div class=\"row\">",
+			"<div class=\"col-md-1\">",
+			"div",
+			"' + host + '",
+			"addForm",
+			"loadIgnoreTable",
+			"@@context_proxy",
+			"rsi_",
+			"github-despegar/cars-proxy",
+			"github-despegar/cars-proxy/",
+			"=>",
+			"httpResponse",
+			"\"\\1\"",
+			":",
+			"response",
+			"buffer",
+			"socket",
+			"client",
+			"json_server",
+			":",
+			"",
+			":",
+			"@data",
+			"reservation",
+			"",
+			"ctip;",
+			"RD_CITY",
+			"\\n\\tat",
+			"\\n",
+			"",
+			"\\1",
+			"",
+			"\\n\\tat",
+			"\"@{$currencyCode}\"",
+			"\"COP\"",
+			"",
+			"JENKINS_HOTFIX_JOB"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/public/cars-proxy-test/js/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10537,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4717,
+								4717
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/routes/service.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2280,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								160,
+								160
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/views/index.erb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3616,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								467,
+								467
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/app.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 647,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								582,
+								582
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/resources/environment.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 125,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								60,
+								60
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/public/cars-proxy-test/tabs/ignore-tabs.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3213,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								56,
+								81
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/public/cars-proxy-test/tabs/mocks-tabs.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1721,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								290,
+								290
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "cars-kaya.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"reservat",
+				"Reservation"
+			]
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 259.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
