@@ -23,3 +23,5 @@ kaya_conf
 unicorn.rb
 config.ru
 
+kaya/
+kaya/*
