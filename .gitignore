@@ -3,6 +3,8 @@
 .config
 .yardoc
 .idea/
+features/
+cucumber.yml
 Gemfile.lock
 InstalledFiles
 _yardoc
