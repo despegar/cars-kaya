@@ -1,4 +1,5 @@
 {
+  "SERVER" : false,
 
   "USE_GIT" : true,
 

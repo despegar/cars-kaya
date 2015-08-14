@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"result",
+				"result_id"
+			],
+			[
+				"bran",
+				"branch_list"
+			],
+			[
+				"bra",
+				"branch_list"
+			],
+			[
 				"read",
 				"read_mocks_files"
 			],
@@ -468,58 +480,42 @@
 	"buffers":
 	[
 		{
-			"file": "/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/public/cars-proxy-test/js/app.js",
+			"file": "lib/kaya/support/git.rb",
 			"settings":
 			{
-				"buffer_size": 10537,
+				"buffer_size": 6826,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/routes/service.rb",
+			"file": "lib/kaya/background_jobs/workers/execution_performer.rb",
 			"settings":
 			{
-				"buffer_size": 2280,
+				"buffer_size": 4810,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/views/index.erb",
+			"file": ".gitignore",
 			"settings":
 			{
-				"buffer_size": 3616,
+				"buffer_size": 290,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/app.rb",
+			"file": "lib/kaya/API/execution.rb",
 			"settings":
 			{
-				"buffer_size": 647,
+				"buffer_size": 4780,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/resources/environment.json",
+			"file": "lib/kaya/cucumber/task.rb",
 			"settings":
 			{
-				"buffer_size": 125,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/public/cars-proxy-test/tabs/ignore-tabs.html",
-			"settings":
-			{
-				"buffer_size": 3213,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/public/cars-proxy-test/tabs/mocks-tabs.html",
-			"settings":
-			{
-				"buffer_size": 1721,
+				"buffer_size": 262,
 				"line_ending": "Unix"
 			}
 		}
@@ -600,10 +596,54 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/jbochard/Documents/github-despegar/kaya/cars-kaya"
+		"/Users/jbochard/Documents/github-despegar/kaya/cars-kaya",
+		"/Users/jbochard/Documents/github-despegar/kaya/cars-kaya/kaya/temp",
+		"/Users/jbochard/Documents/github-despegar/kaya/cars-kaya/lib/kaya",
+		"/Users/jbochard/Documents/github-despegar/kaya/cars-kaya/lib/kaya/background_jobs",
+		"/Users/jbochard/Documents/github-despegar/kaya/cars-kaya/lib/kaya/commands",
+		"/Users/jbochard/Documents/github-despegar/kaya/cars-kaya/lib/kaya/cucumber",
+		"/Users/jbochard/Documents/github-despegar/kaya/cars-kaya/lib/kaya/custom",
+		"/Users/jbochard/Documents/github-despegar/kaya/cars-kaya/lib/kaya/database",
+		"/Users/jbochard/Documents/github-despegar/kaya/cars-kaya/lib/kaya/error",
+		"/Users/jbochard/Documents/github-despegar/kaya/cars-kaya/lib/kaya/results",
+		"/Users/jbochard/Documents/github-despegar/kaya/cars-kaya/lib/kaya/suites/custom",
+		"/Users/jbochard/Documents/github-despegar/kaya/cars-kaya/lib/kaya/support"
 	],
 	"file_history":
 	[
+		"/Users/jbochard/Documents/github-despegar/kaya/cars-kaya/lib/kaya/version.rb",
+		"/Users/jbochard/Documents/github-despegar/kaya/cars-kaya/lib/kaya/background_jobs/sidekiq.rb",
+		"/Users/jbochard/Documents/github-despegar/kaya/cars-kaya/lib/kaya/support/configuration.rb",
+		"/Users/jbochard/Documents/github-despegar/kaya/cars-kaya/lib/kaya/view/javascript.mote",
+		"/Users/jbochard/Documents/github-despegar/kaya/cars-kaya/lib/generators/task_rack.rb",
+		"/Users/jbochard/Documents/github-despegar/kaya/cars-kaya/lib/kaya/suites/suite.rb",
+		"/Users/jbochard/Documents/github-despegar/kaya/cars-kaya/lib/kaya/background_jobs/workers/garbage_cleaner.rb",
+		"/Users/jbochard/Documents/github-despegar/kaya/cars-kaya/.gitignore",
+		"/Users/jbochard/Documents/github-despegar/kaya/cars-kaya/lib/kaya/cuba.rb",
+		"/Users/jbochard/Documents/github-despegar/kaya/cars-kaya/lib/kaya/view/view.rb",
+		"/Users/jbochard/Documents/github-despegar/kaya/cars-kaya/lib/kaya/view/navigation_bar.mote",
+		"/Users/jbochard/Documents/github-despegar/kaya/cars-kaya/lib/kaya/view/help.mote",
+		"/Users/jbochard/Documents/github-despegar/kaya/cars-kaya/lib/kaya/view/features/features_list.mote",
+		"/Users/jbochard/Documents/github-despegar/kaya/cars-kaya/lib/kaya/view/help/main.mote",
+		"/Users/jbochard/Documents/github-despegar/kaya/cars-kaya/lib/kaya/view/help/search_result.mote",
+		"/Users/jbochard/Documents/github-despegar/kaya/cars-kaya/lib/kaya/view/results/all.mote",
+		"/Users/jbochard/Documents/github-despegar/kaya/cars-kaya/lib/kaya/view/results/console.mote",
+		"/Users/jbochard/Documents/github-despegar/kaya/cars-kaya/lib/kaya/view/results/detailed_info.mote",
+		"/Users/jbochard/Documents/github-despegar/kaya/cars-kaya/lib/kaya/view/results/result.mote",
+		"/Users/jbochard/Documents/github-despegar/kaya/cars-kaya/lib/kaya/view/results/results.mote",
+		"/Users/jbochard/Documents/github-despegar/kaya/cars-kaya/lib/kaya/view/suites/suite.mote",
+		"/Users/jbochard/Documents/github-despegar/kaya/cars-kaya/lib/kaya/view/suites/suite_item.mote",
+		"/Users/jbochard/Documents/github-despegar/kaya/cars-kaya/kaya_desa.rb",
+		"/Users/jbochard/Documents/github-despegar/kaya/cars-kaya/kaya/kaya_conf",
+		"/Users/jbochard/Documents/github-despegar/kaya/cars-kaya/kaya.gemspec",
+		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/public/cars-proxy-test/tabs/mocks-tabs.html",
+		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/public/cars-proxy-test/tabs/ignore-tabs.html",
+		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/resources/environment.json",
+		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/app.rb",
+		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/views/index.erb",
+		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/routes/service.rb",
+		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/public/cars-proxy-test/js/app.js",
+		"/Users/jbochard/Documents/github-despegar/kaya/cars-kaya/cars-kaya.sublime-project",
 		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/routes/web.rb",
 		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/routes/proxy.rb",
 		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/routes/health-check.rb",
@@ -611,11 +651,8 @@
 		"/Library/LaunchDaemons/com.mysql.mysql.plist",
 		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/public/cars-proxy-test/styles/styles.css",
 		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/public/js/app.js",
-		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/app.rb",
 		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/public/tabs/mocks-tabs.html",
-		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/resources/environment.json",
 		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/lib/mocker.rb",
-		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/routes/service.rb",
 		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/routes/init.rb",
 		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/test.rb",
 		"/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/.gitignore",
@@ -701,37 +738,7 @@
 		"/Users/jbochard/Library/Application Support/Sublime Text 3/Packages/Compare Side-By-Side/SBSCompare.sublime-settings",
 		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/.gitignore",
 		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/features/resources/mocker/PREPAGA_OK_DRULES_beta-drules-core_json_evaluateFirst.json",
-		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/features/resources/reservations/request_1434047570.json",
-		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/features/resources/mocker/PREPAGA_OK_CHASQUI_cars-chasqui_rest_notifications.json",
-		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/features/resources/reservations/request_1434024208.txt",
-		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/mocker/main.rb",
-		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/mocker/rest_client.rb",
-		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/features/resources/mocker/PREPAGA_OK_OSS_oss-services-sandbox_json_collect_collectService.json",
-		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/features/resources/mocker/PREPAGA_OK_DVAULT_dvault-service_service_tokenization_invalidate_cc_a0ec644f-0444-410e-baa3-f597742d0712.json",
-		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/features/resources/mocker/PREPAGA_OK_OAS_oas-services-beta_json_accounting_accountingService_response.txt",
-		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/output/PREPAGA_OK_OAS_oas-services-beta_json_accounting_accountingService_response.txt",
-		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/features/support/clases/resources.rb",
-		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/features/support/clases/mocker.rb",
-		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/features/venta_prepaga_hibrida.feature",
-		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/features/venta_pad.feature",
-		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/features/venta_precobro.feature",
-		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/features/resources/info_precobro.json",
-		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/features/resources/info_hibrida.json",
-		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/output/1433447529__oas-services-beta_json_accounting_accountingService_request.txt",
-		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/output/1433446666__dvault-service_service_tokenization_mask_cc_c5433b9f-270f-457f-8a34-4e78bc75af47_request.txt",
-		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/output/0__oas-services-beta_json_accounting_oracle_sendPaymentOrder_request.txt",
-		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/mocker/mock_server_old.rb",
-		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/config/cucumber.yml",
-		"/Users/jbochard/Library/Application Support/Sublime Text 3/Packages/Ruby Debugger/Default (OSX).sublime-keymap",
-		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/cars-fenix-integration-test.gemspec",
-		"/Users/jbochard/Library/Application Support/Sublime Text 3/Packages/Ruby Debugger/Ruby Debugger.sublime-settings",
-		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/output/1433352994__dvault-service_service_tokenization_invalidate_cc_8abbe64d-3663-4b11-b02f-98f4ee0c9d7b_request.txt",
-		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/features/resources/info_prepaga.json",
-		"/Users/jbochard/Documents/cars-fenix/automatizacion/qa-cars-uy/local/support/clases/reservation.rb",
-		"/Users/jbochard/Documents/cars-fenix/automatizacion/qa-cars-uy/local/resources/reserva_prepago.json",
-		"/Users/jbochard/Documents/cars-fenix/automatizacion/qa-cars-uy/local/venta_prepaga.feature",
-		"/Users/jbochard/Documents/cars-fenix/automatizacion/qa-cars-uy/local/venta_prepaga_hibrida.feature",
-		"/Users/jbochard/Documents/cars-fenix/automatizacion/qa-cars-uy/local/venta_pad.feature"
+		"/Users/jbochard/Documents/cars-fenix/automatizacion/cars-fenix-integration-test/features/resources/reservations/request_1434047570.json"
 	],
 	"find":
 	{
@@ -742,6 +749,9 @@
 		"height": 93.0,
 		"where_history":
 		[
+			"<open folders>",
+			"/Users/jbochard/Documents/cars-fenix/fenix-deploy",
+			".",
 			"/Users/jbochard/Documents/cars-fenix/automatizacion/qa-cars-uy",
 			"",
 			"/Users/jbochard/Documents/cars-fenix/fenix-deploy",
@@ -753,6 +763,22 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"ExecutionPerformer",
+			"Worker",
+			".out",
+			"ls_",
+			"Wait",
+			"Working",
+			"nil",
+			"=>",
+			"nil",
+			"=>",
+			"Kaya::Support::Git",
+			"/{{Kaya::Support::Configuration.hostname}}",
+			"{{Kaya::Support::Configuration.hostname}}",
+			"#{HOSTNAME}/",
+			"check_for_mongo_existance",
+			"mongo",
 			"'http://' + ",
 			"/cars-proxy-test",
 			"<tr>",
@@ -866,6 +892,11 @@
 		"regex": false,
 		"replace_history":
 		[
+			"null",
+			":",
+			"null",
+			":",
+			"{{Kaya::Support::Configuration.hostname}}",
 			"",
 			"<div class=\"row\">",
 			"<div class=\"col-md-1\">",
@@ -914,33 +945,34 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/public/cars-proxy-test/js/app.js",
+					"file": "lib/kaya/support/git.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10537,
+						"buffer_size": 6826,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4717,
-								4717
+								5316,
+								5316
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2555.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 4,
@@ -948,79 +980,19 @@
 				},
 				{
 					"buffer": 1,
-					"file": "/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/routes/service.rb",
+					"file": "lib/kaya/background_jobs/workers/execution_performer.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2280,
+						"buffer_size": 4810,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								160,
-								160
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": -0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/views/index.erb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3616,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								467,
-								467
-							]
-						],
-						"settings":
-						{
-							"auto_name": "",
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/app.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 647,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								582,
-								582
+								718,
+								718
 							]
 						],
 						"settings":
@@ -1037,89 +1009,89 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/resources/environment.json",
+					"buffer": 2,
+					"file": ".gitignore",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 125,
+						"buffer_size": 290,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								60,
-								60
+								59,
+								59
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "lib/kaya/API/execution.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4780,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								387,
+								387
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1215.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/public/cars-proxy-test/tabs/ignore-tabs.html",
+					"buffer": 4,
+					"file": "lib/kaya/cucumber/task.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3213,
+						"buffer_size": 262,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								56,
-								81
+								156,
+								169
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "/Users/jbochard/Documents/github-despegar/proxy/cars-proxy/public/cars-proxy-test/tabs/mocks-tabs.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1721,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								290,
-								290
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
