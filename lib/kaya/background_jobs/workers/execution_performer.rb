@@ -41,7 +41,7 @@ module Kaya
 
           # Adding _id=result.id to use inside execution the posiibility to add information to the result
           if Kaya::Support::Configuration.server?
-            server_command = "DISPLAY=localhost:1.0 xvfb-run " 
+            server_command = "xvfb-run --auto-servernum" 
           else
             server_command = ""
           end
