@@ -14,7 +14,7 @@ class TaskRack < Thor::Group
 REDIS SERVER IS NOT INSTALLED ON YOUR SYSTEM.
 INSTALL REDIS SERVER BEFORE USING KAYA
 to install Redis go to:
-      " unless redis =~ /Redis server v=\d+\.\d+\.\d+/
+      " unless redis =~ /Redis server v(ersion |=)\d+\.\d+\.\d+/
     end
 
 

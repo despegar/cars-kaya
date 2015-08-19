@@ -5,85 +5,55 @@ module Kaya
     class Git
 
           def self.branch_list
-            if Kaya::Support::Configuration.use_git?
-              self.remote_branches.map do |branch|
-                branch.gsub("*","").gsub(" ","").gsub("origin/","")
-              end.select do |branch|
-                not (branch.include? "HEAD" or branch.include? "/")
-              end
-            else
-              Array.new
+            self.remote_branches.map do |branch|
+              branch.gsub("*","").gsub(" ","").gsub("origin/","")
+            end.select do |branch|
+              not (branch.include? "HEAD" or branch.include? "/")
             end
           end
 
           def self.remote_branches
-            if Kaya::Support::Configuration.use_git?
-              Kaya::Support::Console.execute("git branch -r").split("\n")
-            else
-              Array.new
-            end
+            Kaya::Support::Console.execute("git branch -r").split("\n")
           end
 
           def self.fetch
-            if Kaya::Support::Configuration.use_git?
-              Kaya::Support::Console.execute("git fetch")
-            end
+            Kaya::Support::Console.execute("git fetch")
           end
 
           def self.branch
-            if Kaya::Support::Configuration.use_git?            
-              self.branches.select{|branch| branch.include? "*"}.first.gsub("*","").gsub(" ","")
-            else
-              Array.new
-            end
+            self.branches.select{|branch| branch.include? "*"}.first.gsub("*","").gsub(" ","")
           end
 
           def self.actual_branch; self.branch; end
 
           def self.branches
-            if Kaya::Support::Configuration.use_git?              
-              Kaya::Support::Console.execute("git branch").split("\n")
-            else
-              Array.new
-            end
+            Kaya::Support::Console.execute("git branch").split("\n")
           end
 
           def self.git_add_commit msg=nil
-            if Kaya::Support::Configuration.use_git?                          
-              self.add_all
-              self.commit msg
-            end
+            self.add_all
+            self.commit msg
           end
 
           def self.add_all
-            if Kaya::Support::Configuration.use_git?
-              Kaya::Support::Console.execute("git add .")
-            end
+            Kaya::Support::Console.execute("git add .")
           end
 
           def self.add_file filename
-            if Kaya::Support::Configuration.use_git?
-              Kaya::Support::Console.execute("git add #{filename}")
-            end
+            Kaya::Support::Console.execute("git add #{filename}")
           end
 
           def self.push
-            if Kaya::Support::Configuration.use_git?
-              Kaya::Support::Console.execute("git push")
-            end
+            Kaya::Support::Console.execute("git push")
           end
 
           def self.git_push_origin_to branch_name=nil
-            if Kaya::Support::Configuration.use_git?
-              branch_name = self.branch if branch_name.nil?
-              Kaya::Support::Console.execute("git push origin #{branch_name}")
-            end
+            branch_name = self.branch if branch_name.nil?
+            Kaya::Support::Console.execute("git push origin #{branch_name}")
           end
 
           def self.reset_hard
-            if Kaya::Support::Configuration.use_git?
-              Kaya::Support::Console.execute("git reset --hard")
-            end
+            Kaya::Support::Console.execute("git reset --hard")
           end
 
           def self.reset_hard_and_pull
@@ -100,38 +70,28 @@ module Kaya
           end
 
           def self.commit msg = nil
-            if Kaya::Support::Configuration.use_git?
-              # self.ensure_being_at_kaya_branch
-              msg = "KAYA COMMIT #{Time.new.strftime('%d %m %Y %H:%M:%S')}" if msg.nil?
-              Kaya::Support::Console.execute"git commit -m '#{msg}'"
-            end
+            # self.ensure_being_at_kaya_branch
+            msg = "KAYA COMMIT #{Time.new.strftime('%d %m %Y %H:%M:%S')}" if msg.nil?
+            Kaya::Support::Console.execute"git commit -m '#{msg}'"
           end
 
           def self.create_branch_and_checkout branch
-            if Kaya::Support::Configuration.use_git?
-              Kaya::Support::Console.execute("git checkout -b #{branch}")
-            end
+            Kaya::Support::Console.execute("git checkout -b #{branch}")
           end
 
           def self.delete_branch branch
-            if Kaya::Support::Configuration.use_git?
-              checkout_to "master"
-              Kaya::Support::Console.execute("git branch -D #{branch}")
-            end
+            checkout_to "master"
+            Kaya::Support::Console.execute("git branch -D #{branch}")
           end
 
           # Performs pull from actual branc
           def self.pull
-            if Kaya::Support::Configuration.use_git?
-              self.pull_from(self.actual_branch)
-            end
+            self.pull_from(self.actual_branch)
           end
 
           def self.pull_from(branch_name=nil)
-            if Kaya::Support::Configuration.use_git?
-              branch_name = self.branch if branch_name.nil?
-              Kaya::Support::Console.execute("git pull origin #{branch_name}")
-            end
+            branch_name = self.branch if branch_name.nil?
+            Kaya::Support::Console.execute("git pull origin #{branch_name}")
           end
 
           def self.return_to_branch branch
@@ -139,9 +99,7 @@ module Kaya
           end
 
           def self.checkout_to branch
-            if Kaya::Support::Configuration.use_git?
-              Kaya::Support::Console.execute("git checkout #{branch}") unless self.actual_branch == branch
-            end
+            Kaya::Support::Console.execute("git checkout #{branch}") unless self.actual_branch == branch
           end
 
           def self.checkout_and_pull_from branch_name=nil

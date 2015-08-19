@@ -1,6 +1,4 @@
 {
-  "SERVER" : false,
-
   "USE_GIT" : true,
 
   "HOSTNAME" : "your-host-name",
@@ -46,5 +44,6 @@
   "HEADLESS" : {
     "active" : false,
     "resolution" : "1024x768",
-    "size":"24"}
+    "size":"24"
+  }
 }

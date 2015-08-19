@@ -143,10 +143,6 @@ module Kaya
         self.is_boolean? value ? value : false
       end
 
-      def self.server?
-        self.is_boolean? @@input['SERVER'] ? @@input['SERVER'] : false
-      end
-
       def self.is_a_number? value
         !"#{value}".scan(/\d+/).empty?
       end
