@@ -40,12 +40,7 @@ module Kaya
           end
 
           # Adding _id=result.id to use inside execution the posiibility to add information to the result
-          if Kaya::Support::Configuration.server?
-            server_command = "xvfb-run --auto-servernum " 
-          else
-            server_command = ""
-          end
-          result.kaya_command= "#{Kaya::Support::Configuration.headless?} #{server_command}cucumber #{result.command} -f pretty -f html -o kaya/temp/#{result.kaya_report_file_name} #{result.custom_params_values} _id=#{result.id} "
+          result.kaya_command= "#{Kaya::Support::Configuration.headless?} cucumber #{result.command} -f pretty -f html -o kaya/temp/#{result.kaya_report_file_name} #{result.custom_params_values} _id=#{result.id} "
 
           result.console_output_file_name= "kaya_co_#{result.id}.out"
 
